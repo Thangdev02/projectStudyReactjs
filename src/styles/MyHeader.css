@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 33%;
+}
+
+.logo img {
+    width: 50%;
+}
+
+nav {
+    width: 33%;
+}
+
+ul {
+    display: flex;
+    gap: 8%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #02704b;
+}
+
+.btn {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end ;
+}
+.btn>button{
+    background-color: #02704b;
+    color: white;
+    padding: 2% 4%;
+    border: none;
+    border-radius: 5px;
+}
