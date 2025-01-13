@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+    display: flex;
+    background-color: #02704b;
+    color: white;
+    align-items: center;
+}
+.logoFooter{
+    width: 50%;
+}
+.colum1, .colum2, .colum3, .colum4{
+    width: 25%;
+}

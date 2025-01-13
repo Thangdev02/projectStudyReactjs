@@ -1,4 +1,4 @@
-header {
+.header {
     width: 100%;
     display: flex;
     align-items: center;
@@ -12,20 +12,20 @@ header {
     width: 50%;
 }
 
-nav {
+.nav {
     width: 33%;
 }
 
-ul {
+.ul {
     display: flex;
     gap: 8%;
 }
 
-li {
+.ul> a >li {
     list-style: none;
 }
 
-a {
+.ul> a {
     text-decoration: none;
     font-size: 18px;
     font-weight: bolder;
