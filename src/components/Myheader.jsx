@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/MyHeader.css'
-const Myheader = () => {
+const Myheader = () => { //1 COMPONENTS, set Interval
+
+    //javascript
+    
     return (
         <header className='header'>
             <div className='logo'>
@@ -21,4 +24,4 @@ const Myheader = () => {
     );
 };
 
-export default Myheader;
+export default Myheader; 

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Counter = () => {
     //nhiem vu: la co 1 cai so, sau do bam nut + thi lay so do +1 len //any chinh la kieu gi cung dc
-    const [counter, setCounter] = useState(0); //
+    const [counter, setCounter] = useState(0); //state
     function cong1() {
         setCounter(counter + 1);
     }
