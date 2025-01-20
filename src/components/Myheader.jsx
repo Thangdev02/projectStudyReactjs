@@ -13,6 +13,7 @@ const Myheader = () => { //1 COMPONENTS, set Interval
                 <ul className='ul'>
                     <a href='/'> <li>Home</li></a>
                     <a href='/contact'> <li>Contact</li></a>
+                    <a href='/store'> <li>Store</li></a>
                     <a href='/profile'> <li>Profile</li></a>
                     <a href='/aboutUs'> <li>AboutUS</li></a>
                 </ul>

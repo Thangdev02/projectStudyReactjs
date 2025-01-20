@@ -5,6 +5,7 @@ import ContactPage from "./pages/ContactPage";
 import Myheader from "./components/Myheader";
 import MyFooter from "./components/MyFooter";
 import ProfilePage from "./pages/ProfilePage";
+import StorePage from "./pages/StorePage";
 
 function App() {
   // Main thi no se chay xuyen suot du an
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path='/profile' element={<ProfilePage />} />
+          <Route path='/store' element={<StorePage />} />
         </Routes>
         <MyFooter />
       </BrowserRouter>
