@@ -22,6 +22,7 @@ const StorePage = () => {
                     productImage='https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lozov6pi3kgr65.webphttps://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lozov6pi3kgr65.webphttps://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lozov6pi3kgr65.webp'
                     productName='May say toc'
                     productPrice='20$'
+                    dangbanchay={true}
                 />
                  <CardProduct
                     productImage='https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lozov6pi3kgr65.webphttps://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lozov6pi3kgr65.webphttps://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lozov6pi3kgr65.webp'

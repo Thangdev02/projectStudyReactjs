@@ -7,6 +7,7 @@ const CardProduct = (props) => {
                 <h2>{props.productName}</h2>
                 <p>{props.productPrice}</p>
                 <p>{props.discount}</p>
+                {props.dangbanchay ? <h1>DDaang ban chay</h1>: <h1></h1>}
         </div>
     );
 };
