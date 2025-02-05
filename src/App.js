@@ -1,28 +1,35 @@
 import React from "react";
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+
+import Salary from "./components/Salary";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ServicePage from "./pages/ServicePage";
+import Myheader from "./layouts/Myheader";
+import MyFooter from "./layouts/MyFooter";
 import ContactPage from "./pages/ContactPage";
-import Myheader from "./components/Myheader";
-import MyFooter from "./components/MyFooter";
-import ProfilePage from "./pages/ProfilePage";
+import Layouts from "./layouts/Layouts";
 import StorePage from "./pages/StorePage";
-import MemberJoin from "./components/MemberJoin";
-import JoinCourse from "./components/JoinCourse";
-import Greeting from "./components/Greeting";
 import Login from "./pages/LoginPage";
-import Test from "./pages/Test";
 
 function App() {
   // Main thi no se chay xuyen suot du an
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Test />} />
-          <Route path="/home" element={<HomePage />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    // 1 project react chi co duy nhat 1 router// bo duong dan
+    <BrowserRouter>
+      <Routes>
+      <Route path="/login" element={<Login/>}/>
+
+        <Route path="/*" element={ 
+          //cai gi cung duoc
+          <Layouts>
+          <Routes>
+          <Route path="/store" element={<StorePage/>}/>
+          <Route path="/service" element={<ServicePage/>}/>
+          <Route path="/contact" element={<ContactPage/>}/>
+          </Routes>
+        </Layouts>}/>
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 

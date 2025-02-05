@@ -28,6 +28,7 @@ const Login = () => {
             style={styles.input}
           />
         </div>
+        <h1>Username {username}</h1>
         <div style={styles.inputGroup}>
           <label>Password:</label>
           <input
